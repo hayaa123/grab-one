@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import Introduction from './Introduction'
+import ListOfObjects from './ListOfObjects'
 
 export class Content extends Component {
   render() {
     return (
-      <div className='bg-[#f4f7fb] h-32'>
-          
-      </div>
+      <div className='bg-gray '>
+          <Introduction/>
+          <ListOfObjects/>
+      </div>      
     )
   }
 }
