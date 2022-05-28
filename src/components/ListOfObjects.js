@@ -36,7 +36,7 @@ export class ListOfObjects extends Component {
   ]
   render() {
     return (
-      <div className=" bg-white w-[350px] rounded-sm">
+      <div className=" bg-white w-[320px] rounded-sm ml-[70px]">
         <h1 className="text-sky_blue border-b-[1px] border-[#dce3ed] h-16 text-[30px] font-semibold ml-5 flex items-center " >Discover</h1>
         <ul className="flex flex-col justify-evenly "> 
             {
