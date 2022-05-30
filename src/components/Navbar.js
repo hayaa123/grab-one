@@ -57,18 +57,6 @@ let classes = {
   "small_icons":"h-8 w-8 text-white ",
   "arrow":"h-5 w-5 text-white "
 }
-let style = {
-    "main_nav":{
-        backgroundColor:"#01b2ee",
-        display:"flex",
-        justifyContent:"space-between"
-    },
-    "logo":{
-        color:"white"
-        
-    },
-    "location":{
-      display:"flex"
-    }
-} 
+
+ 
 export default Navbar
