@@ -29,3 +29,24 @@
     z-index: 3;
     color: white;
 }
+.multi_card_effect::before{
+    width: 87%;
+    height: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ced5df;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    z-index: 100;
+}
+.multi_card_effect::after{
+    width: 90%;
+    height: 10px;
+    background-color: white;
+    border-bottom: 1px solid #ced5df;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}

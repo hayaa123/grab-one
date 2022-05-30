@@ -3,6 +3,7 @@ import Card from './Card'
 import Collections from './Collections'
 import Deals from './Deals'
 import Email from './Email'
+import Escapes from './Escapes'
 import Introduction from './Introduction'
 import ListOfObjects from './ListOfObjects'
 
@@ -21,6 +22,7 @@ export class Content extends Component {
          <Email/>
          <Deals/>
          <Collections/>
+         <Escapes/>
       </div>     
     )
   }
