@@ -5,12 +5,12 @@ import { ChevronRightIcon } from '@heroicons/react/outline'
 export class CollectionsCard extends Component {
   render() {
     return (
-        <div className='relative w-[100%]  '>
-        <div className='bg-white rounded  w-[95%] sky_blue_hover_small '>
-            <div className='relative ' >
+        <div className='relative w-[100%]  overflow-visible '>
+        <div className='bg-white  w-[95%] sky_blue_hover_small  border-b border-b-[1px] border-b-[#ced5df]  multi_card_effect'>
+            <div className='relative' >
               
-              <img src={img} className="rounded object-cover " alt="" />
-              <div className='bg-white w-6 h-6 rounded-full absolute top-2 right-2 flex items-center justify-center opacity-80	z-10 '>
+              <img src={img} className=" object-cover h-[215px] w-full " alt="" />
+              <div className='bg-white w-6 h-6 rounded-full absolute top-2 right-2 flex items-center justify-center opacity-80'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" >
                   <path d="M0 0h22v22H0z" fill="none"/>
                   <path d="M17.3 12.842v2.684H20v1.789h-2.7V20h-1.8v-2.684h-2.7v-1.79h2.7v-2.684zm1.119-8.27a5.345 5.345 0 01.212 7.368l-1.278-1.269a3.549 3.549 0 00-.209-4.835A3.616 3.616 0 0012.2 5.7L11 6.771 9.8 5.7a3.614 3.614 0 00-4.945.138 3.563 3.563 0 00-.173 4.877l7.589 7.557L11 19.539l-7.632-7.6a5.347 5.347 0 01.212-7.367 5.424 5.424 0 017.42-.2 5.421 5.421 0 017.418.2z" fill="#1f2530"/>
@@ -22,12 +22,12 @@ export class CollectionsCard extends Component {
               </p>
             </div>
             
-            <div className='pl-3 pt-3 h-[155px] items-center flex flex-col'>
+            <div className='pl-3 pt-3 h-[135px] items-center flex flex-col '>
                 <h1 className='text-base text-center text-[#4f5864]'>Ugg collections</h1>
                 <p className='text-sky_blue text-center text-sm'>Multiple deals</p>
                 
-                <span className='relative w-32 flex mt-4'>
-                    <button className=' font-[700]  border-[2px] rounded-md pl-[12px] pr-[12px] pt-[8px] pb-[8px] border-sky_blue inline top-0  text-center text-sky_blue text-[13px] rounded-md absolute  left-0 '>View Collection</button>
+                <span className='relative w-32 flex mt-4 '>
+                    <button className=' font-[700]  border-[2px]  pl-[12px] pr-[12px] pt-[8px] pb-[8px] border-sky_blue inline top-0  text-center text-sky_blue text-[13px] rounded-md absolute  left-0 '>View Collection</button>
                     <ChevronRightIcon className='w-[14px] h-[14px] text-sky_blue absolute top-3 right-2'/>
                 </span> 
             </div>
@@ -36,5 +36,6 @@ export class CollectionsCard extends Component {
     )
   }
 }
+
 
 export default CollectionsCard
