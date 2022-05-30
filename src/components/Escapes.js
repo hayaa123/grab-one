@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
+import CardSmall from './CardSmall'
 import HeadlineWithButton from './HeadlineWithButton'
 
 export class Escapes extends Component {
   render() {
     return (
-        <div className='w-[90%] m-auto mb-[100px]'>
-        <HeadlineWithButton title="Escapes"/>
-        <div className='grid grid-cols-4 gap-y-6'>
-
+        <div className='w-[90%] m-auto h-[500px]'>
+        <HeadlineWithButton title="Activities, Events & Outdoors"/>
+        <div className='flex flex-wrap gap-y-3'>
+                <CardSmall/>
+                <CardSmall/>
+                <CardSmall/>
+                <CardSmall/>
             </div>
         </div>
     )

@@ -27,25 +27,18 @@ export class Navbar extends Component {
                   <span className='text-white'>{this.state.country}</span>
                   <ChevronDownIcon className={classes.arrow}/>
               </button>
-              {/* <ul>
-                  {this.countries.map(country=>{
-                      return(
-                        <li>{country}</li>
-                        )
-                  })}
-              </ul> */}
               </div>
-              <div>
+              <div className='hide_when_responsive'>
                   <HeartIcon className={classes.small_icons}/>
               </div>
-                <div>
+                <div className='hide_when_responsive'>
                 <ShoppingCartIcon className={classes.small_icons}/>
                 </div>
-                <div className='flex items-center'>
+                <div className='flex items-center hide_when_responsive'>
                   <UserIcon className={classes.small_icons}/>
                   <ChevronDownIcon className={classes.arrow}/>
                 </div>
-                <div className='flex items-center justify-evenly w-32'>
+                <div className='flex items-center justify-evenly w-32 hide_when_responsive'>
                 <MailIcon className={classes.small_icons}/>
                 <span className='text-white'>subscribe</span>
                 </div>

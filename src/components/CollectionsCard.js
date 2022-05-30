@@ -5,8 +5,8 @@ import { ChevronRightIcon } from '@heroicons/react/outline'
 export class CollectionsCard extends Component {
   render() {
     return (
-        <div className='relative w-[100%]  overflow-visible '>
-        <div className='bg-white  w-[95%] sky_blue_hover_small  border-b border-b-[1px] border-b-[#ced5df]  multi_card_effect'>
+        <div className='relative w-[25%] small_card_responsive overflow-visible multi_card_effect '>
+        <div className='bg-white  w-[95%]   border-b border-b-[1px] border-b-[#ced5df] sky_blue_hover_small '>
             <div className='relative' >
               
               <img src={img} className=" object-cover h-[215px] w-full " alt="" />
@@ -17,7 +17,7 @@ export class CollectionsCard extends Component {
                   <path transform="translate(0,22)" d="M0 0h22v22H0z" fill="none"/>
               </svg>   
               </div>
-              <p className='sky_blue_hover_p'>
+              <p className='sky_blue_hover_small_p'>
                 Ugg collections
               </p>
             </div>

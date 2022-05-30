@@ -5,11 +5,11 @@ export class CardSmall extends Component {
   render() {
     return (
       
-        <div className='relative w-[100%]  '>
-        <div className='bg-white rounded  w-[95%] sky_blue_hover_small '>
+        <div className='relative w-[25%]  small_card_responsive'>
+        <div className='bg-white rounded  w-[95%] border-b border-b-[1px] border-b-[#ced5df] sky_blue_hover_small '>
             <div className='relative ' >
               
-              <img src={img} className="rounded object-cover " alt="" />
+              <img src={img} className="rounded object-cover h-[215px] w-full" alt="" />
               <div className='bg-white w-6 h-6 rounded-full absolute top-2 right-2 flex items-center justify-center opacity-80	z-10 '>
                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" >
                   <path d="M0 0h22v22H0z" fill="none"/>
@@ -17,7 +17,7 @@ export class CardSmall extends Component {
                   <path transform="translate(0,22)" d="M0 0h22v22H0z" fill="none"/>
               </svg>   
               </div>
-              <p className='sky_blue_hover_p'>
+              <p className='sky_blue_hover_small_p'>
                 Luxury Five-Star Auckland Stay for Two in a Deluxe Room at Cordis Auckland incl. Cooked Breakfast, $50 Credit, 2 Drinks, Pool, Spa & Fitness Centre, Parking & Late Checkout - Options to Stay in the...
               </p>
             </div>

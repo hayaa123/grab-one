@@ -5,10 +5,10 @@ import HeadlineWithButton from './HeadlineWithButton'
 export class Deals extends Component {
   render() {
     return (
-      <div className='w-[90%] m-auto '>
+      <div className='w-[90%]  m-auto '>
         <HeadlineWithButton title="Featured Auckland deals "/>
           
-            <div className='grid grid-cols-4 gap-y-6'>
+            <div className='flex flex-wrap gap-y-3 change_flex_on_mobile'>
                 <CardSmall/>
                 <CardSmall/>
                 <CardSmall/>
