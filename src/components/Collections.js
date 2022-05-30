@@ -7,7 +7,7 @@ export class Collections extends Component {
     return (
         <div className='w-[90%] m-auto mb-[100px]'>
         <HeadlineWithButton title="Collections"/>
-        <div className='grid grid-cols-4 gap-y-6'>
+        <div className='flex flex-wrap gap-y-8'>
                 <CollectionsCard/>
                 <CollectionsCard/>
                 <CollectionsCard/>

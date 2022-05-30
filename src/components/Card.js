@@ -4,11 +4,11 @@ export class Card extends Component {
   render() {
     return (
       <div className='relative '>
-      <div className='bg-white rounded w-[495px] sky_blue_hover h-[510px]'>
+      <div className='bg-white rounded w-[495px] card_responsive sky_blue_hover border-b border-b-[1px] border-b-[#ced5df] h-[510px]'>
           <div className='relative  ' >
             
-            <img src={img} className="rounded object-cover h-[340px]" alt="" />
-            <div className='bg-white w-6 h-6 rounded-full absolute top-2 right-2 flex items-center justify-center opacity-80	z-10 '>
+            <img src={img} className="rounded object-cover w-full h-[340px] card_image_size" alt="" />
+            <div className='bg-white w-6 h-6 rounded-full absolute top-2 right-2 flex items-center justify-center opacity-80 '>
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" >
                 <path d="M0 0h22v22H0z" fill="none"/>
                 <path d="M17.3 12.842v2.684H20v1.789h-2.7V20h-1.8v-2.684h-2.7v-1.79h2.7v-2.684zm1.119-8.27a5.345 5.345 0 01.212 7.368l-1.278-1.269a3.549 3.549 0 00-.209-4.835A3.616 3.616 0 0012.2 5.7L11 6.771 9.8 5.7a3.614 3.614 0 00-4.945.138 3.563 3.563 0 00-.173 4.877l7.589 7.557L11 19.539l-7.632-7.6a5.347 5.347 0 01.212-7.367 5.424 5.424 0 017.42-.2 5.421 5.421 0 017.418.2z" fill="#1f2530"/>
