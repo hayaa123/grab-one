@@ -48,6 +48,13 @@
   }
 
 @media screen and (max-width:650px ) {
+    .responsive_h{
+        font-size: 20px;
+    }
+    .responsive_b button{
+        width: 74px;
+        font-size: 9px;
+    }
     .card_section{
         flex-direction: column;
     }
