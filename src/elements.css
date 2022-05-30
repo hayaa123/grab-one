@@ -1,0 +1,31 @@
+.sky_blue_hover::after{
+    transition: 500ms;
+    content:""
+}
+.sky_blue_hover:hover::after{
+    width: inherit;
+    height: 340px;
+    background-color: rgba(1,178,238,.9);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 0.25rem;
+}
+.sky_blue_hover_p{
+    display: none;
+}
+.sky_blue_hover:hover .sky_blue_hover_p{
+    
+    display: block;
+    height: 300px;
+    text-align: center;
+    padding: 80px 20px 70px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: inherit;
+    z-index: 3;
+    color: white;
+}
