@@ -2,10 +2,27 @@ import React, { Component } from 'react'
 import {ChevronDownIcon,SearchIcon } from '@heroicons/react/outline'
 
 export class SubNav extends Component {
+  controlNavbar =()=>{
+let subnav = document.querySelector(".subnav")
+    if (window.scrollY >40){    
+      
+      subnav.classList.add ("subnav_mobile") 
+       
+    }
+    else if (window.scrollY <40){
+      subnav.classList.remove("subnav_mobile")
+      
+    }
+  }
+  componentDidMount(){
+    window.addEventListener("scroll",this.controlNavbar)
+  }
   render() {
+    
     return (
-      <div className='flex items-center bg-white justify-between h-16 hide_when_responsive' style={style.strong_box_shadow}>
-          <div className='flex justify-between w-2/5 ml-20' >
+      <div className='bg-white subnav w-full z-50' style={style.strong_box_shadow}>
+      <div className='flex items-center  justify-between   h-16 max-w-screen-xl m-auto hide_when_responsive ' >
+          <div className='flex justify-between w-2/5' >
               {/* this is for the nav list */}
             <div className='flex'>
                 Browse Categories
@@ -36,6 +53,8 @@ export class SubNav extends Component {
 
           </div>
       </div>
+      </div>
+
     )
   }
 }

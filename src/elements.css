@@ -3,10 +3,11 @@
     content:""
 }
 .sky_blue_hover:hover::after{
-    width: inherit;
+    content: " ";
+    width: 100%;
     height: 340px;
     background-color: rgba(1,178,238,.9);
-    content: "";
+    
     position: absolute;
     top: 0;
     left: 0;
@@ -36,7 +37,7 @@
     content:""
 }
 .sky_blue_hover_small:hover::after{
-    width: 100%;
+    width: 96%;
     height: 215px;
     background-color: rgba(1,178,238,.9);
     content: "";
@@ -44,6 +45,7 @@
     top: 0;
     left: 0;
     z-index: 1;
+    border-radius: 0.25rem;
 }
 .sky_blue_hover_small_p{
     display: none;
@@ -61,6 +63,8 @@
     height: inherit;
     z-index: 3;
     color: white;
+    
+
 }
 
 
@@ -74,7 +78,7 @@
     position: absolute;
     bottom: -20px;
     left: 0;
-    z-index: 100;
+    z-index: 10;
 }
 .multi_card_effect::after{
     width: 90%;
@@ -85,4 +89,9 @@
     position: absolute;
     bottom: -10px;
     left: 0;
+}
+
+.subnav_mobile{
+    position: fixed;
+    top: 0;
 }

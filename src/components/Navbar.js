@@ -15,14 +15,15 @@ export class Navbar extends Component {
   render() {
     return (
     <>
-      <div className="bg-sky_blue flex justify-between items-center h-16">
-            <div style={{color:"white",fontSize:"35px",textDecoration:"bold",fontFamily:"'Fredoka One', cursive",marginLeft: "83px"}}>
+    <div className='bg-sky_blue'>
+      <div className=" flex justify-between items-center h-16 max-w-screen-xl m-auto">
+            <div className='logo' style={{color:"white",fontSize:"35px",textDecoration:"bold",fontFamily:"'Fredoka One', cursive"}}>
                 GrabOne
             </div>
           
-            <div className="flex items-center w-2/5 justify-around">
+            <div className="flex items-center w-2/5 justify-around location">
                 <div>
-              <button className='flex items-center'>
+              <button className='flex items-center '>
                   <LocationMarkerIcon className={classes.small_icons}/>
                   <span className='text-white'>{this.state.country}</span>
                   <ChevronDownIcon className={classes.arrow}/>
@@ -47,6 +48,7 @@ export class Navbar extends Component {
       </div>
       <div>
         <SubNav/>
+      </div>
       </div>
       </>
     )

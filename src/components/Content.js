@@ -10,11 +10,11 @@ import ListOfObjects from './ListOfObjects'
 export class Content extends Component {
   render() {
     return (
-      <div className=' '>
+      <div className='max-w-screen-xl m-auto'>
           <Introduction/>
-          <div className='flex gap-5 w-[90%] m-auto'>
+          <div className='flex justify-between gap-5  m-auto'>
           <ListOfObjects/>
-            <div className='flex gap-5 w-[60%] card_section'>
+            <div className=' flex flex-wrap  justify-between  w-[79%] mr-[1%]  card_section'>
             <Card/>
             <Card/>
             </div>
@@ -23,6 +23,7 @@ export class Content extends Component {
          <Deals/>
          <Collections/>
          <Escapes/>
+    
       </div>     
     )
   }
