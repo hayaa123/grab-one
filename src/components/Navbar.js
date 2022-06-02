@@ -15,7 +15,7 @@ export class Navbar extends Component {
   render() {
     return (
     <>
-    <div className='bg-sky_blue'>
+    <div className='bg-sky_blue navbar'>
       <div className=" flex justify-between items-center h-16 max-w-screen-xl m-auto">
             <div className='logo' style={{color:"white",fontSize:"35px",textDecoration:"bold",fontFamily:"'Fredoka One', cursive"}}>
                 GrabOne
