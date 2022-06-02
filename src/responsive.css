@@ -185,6 +185,15 @@
     .order_five{
         order: 5;
     }
+    .navbar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 90;
+    }
+    .intro{
+        padding-top: 50px;
+    }
  
 }
   
