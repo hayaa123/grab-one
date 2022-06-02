@@ -45,6 +45,53 @@
         width: 80%;
         margin-left: -30px;
     }
+    .mobile_nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+    }
+    .footer_flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 4%;
+    }
+    .footer_items{
+        width: 30%;
+        padding-left: 2%;
+
+    }
+    .responsive_fb{
+        padding-bottom: 150px ;
+        text-align: start;
+        padding-left: 3%;
+    }
+    .order_one{
+        order: 1;
+        width: 100%;
+        padding: 10px;
+    }
+    .order_two{
+        order: 2;
+    }
+    .order_three{
+        order: 3;
+    }
+    .order_four{
+        order: 4;
+    }
+    .order_five{
+        order: 5;
+    }
+    .location{
+        justify-content: flex-end;
+        padding-right: 2%;
+    }
   }
 
 @media screen and (max-width:650px ) {
@@ -55,8 +102,17 @@
         width: 74px;
         font-size: 9px;
     }
+    .card_responsive{
+        width: 100%;
+        
+
+    }
     .card_section{
+        width: 100%;
         flex-direction: column;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-right: auto;
     }
     .sky_blue_hover:hover::after{
         height: 315px;
@@ -67,7 +123,8 @@
        flex-direction: column;
    }
    .small_card_responsive{
-    width: 105%;
+    width: 100%;
+    padding-right: 0;
     }
     .small_card_responsive img{
         height: 315px
@@ -102,7 +159,7 @@
 
     }
     .footer_items{
-        width: 50%;
+        width: 45%;
         padding-left: 3%;
 
     }
@@ -113,6 +170,8 @@
     }
     .order_one{
         order: 1;
+        width: 100%;
+        padding: 10px;
     }
     .order_two{
         order: 2;
@@ -126,5 +185,6 @@
     .order_five{
         order: 5;
     }
+ 
 }
   

@@ -5,8 +5,8 @@ import { ChevronRightIcon } from '@heroicons/react/outline'
 export class CollectionsCard extends Component {
   render() {
     return (
-        <div className='relative w-[25%] small_card_responsive overflow-visible multi_card_effect '>
-        <div className='bg-white  w-[95%]   border-b border-b-[1px] border-b-[#ced5df] sky_blue_hover_small '>
+        <div className='relative w-[25%] pr-[1%] small_card_responsive overflow-visible multi_card_effect '>
+        <div className='bg-white   border-b border-b-[1px] border-b-[#ced5df] sky_blue_hover_small '>
             <div className='relative' >
               
               <img src={img} className=" object-cover h-[215px] w-full " alt="" />

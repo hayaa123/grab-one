@@ -5,8 +5,8 @@ import { DeviceMobileIcon , MailIcon } from "@heroicons/react/outline";
 export class Footer extends Component {
   render() {
     return (
-      <div>
-        <div className="flex justify-evenly bg-white mt-5 footer_flex">
+      <div className="bg-white">
+        <div className="flex justify-evenly  max-w-screen-xl m-auto mt-5 footer_flex pb-7">
           <div className="h-[175px] flex flex-col justify-between font-semibold order_two footer_items">
             <p className="pt-6 ">Follow us on</p>
             <SocailMedia/>
@@ -56,7 +56,7 @@ export class Footer extends Component {
 
           <div className="w-[400px] order_one">
             <p className="pt-6 pb-6 font-semibold">Newsletter Signup</p>
-            <p className="text-sm w-[370px]">Sign up for our daily emails and we'll send you all the best deals, tailored for you.</p>
+            <p className="text-sm w-[90%]">Sign up for our daily emails and we'll send you all the best deals, tailored for you.</p>
             <div className='relative w-[100%] h-[100px]  ' >
                 <input type="text" placeholder='Enter email address' className=' absolute top-[27.5px] left-0 pl-10 pt-2 pb-2 border-solid border-[1px]  border-[#dce3ed] rounded-md w-[90%] h-[45px]' style={style.box_shadow} />
                 <MailIcon className='h-8 w-8 text-[#92a2ad] absolute top-[34.5px] left-2'/>

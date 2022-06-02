@@ -4,7 +4,7 @@ import { MailIcon } from '@heroicons/react/outline'
 export class Email extends Component {
   render() {
     return (
-      <div className='bg-white  flex items-center change_flex_responsive  w-[90%] m-auto mt-10 '>
+      <div className='bg-white  flex items-center change_flex_responsive   m-auto mt-10 '>
           <div className='text-[21px]	text-sky_blue font- bold pl-10 mail_text'>
           Get the best deals delivered direct to your inbox each day
           </div>
