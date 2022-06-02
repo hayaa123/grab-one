@@ -23,6 +23,7 @@ export class Content extends Component {
          <Deals/>
          <Collections/>
          <Escapes/>
+    
       </div>     
     )
   }

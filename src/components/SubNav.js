@@ -4,7 +4,7 @@ import {ChevronDownIcon,SearchIcon } from '@heroicons/react/outline'
 export class SubNav extends Component {
   render() {
     return (
-      <div className='flex items-center bg-white justify-between h-16 hide_when_responsive' style={style.strong_box_shadow}>
+      <div className='flex items-center bg-white justify-between h-16 hide_when_responsive subnav' style={style.strong_box_shadow}>
           <div className='flex justify-between w-2/5 ml-20' >
               {/* this is for the nav list */}
             <div className='flex'>

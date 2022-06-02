@@ -86,3 +86,10 @@
     bottom: -10px;
     left: 0;
 }
+
+html:not([data-scroll='0']) .subnav {
+    position: fixed;
+    top: 0;
+    z-index: 90;
+    width: 100%;
+  }
